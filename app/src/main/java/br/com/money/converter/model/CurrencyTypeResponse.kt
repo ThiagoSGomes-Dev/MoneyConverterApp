@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName
 
 @Parcelize
 data class CurrencyTypeResultResponse (
-    @SerializedName("values") val values: CurrencyTypeResponse
+    @SerializedName("values") val values: List<CurrencyTypeResponse>
 ) : Parcelable {
 
     @Parcelize
