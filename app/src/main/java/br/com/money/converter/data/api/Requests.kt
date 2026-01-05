@@ -4,10 +4,12 @@ object URL {
     const val BASE = "/currency"
 
     object TYPES {
-        const val TYPE = "$BASE/currency-types"
+
+        const val TYPE = "${BASE}/currency-type"
 
         object VERSION {
             const val V1 = "/v1"
         }
+
     }
 }
